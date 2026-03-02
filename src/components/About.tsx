@@ -29,7 +29,7 @@ export default function About() {
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-orange-200 rounded-2xl transform translate-x-4 translate-y-4"></div>
               <img
                 src={coachPhoto}
-                alt="BL FITNESS Coach — personal fitness trainer"
+                alt="Boris Lilić — BL FITNESS certified personal trainer, Dubai"
                 loading="lazy"
                 className="relative rounded-2xl shadow-2xl object-cover w-full h-auto transition duration-500"
               />

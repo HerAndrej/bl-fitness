@@ -24,13 +24,13 @@ export default function Footer() {
               {t.footer.desc}
             </p>
             <div className="flex justify-center md:justify-start space-x-6 mt-6">
-              <a href="https://www.instagram.com/b.lila.fitness" target="_blank" rel="noreferrer" aria-label="Follow BL FITNESS on Instagram" className="text-gray-500 hover:text-sky-500 transition-colors">
+              <a href="https://www.instagram.com/borislilic/" target="_blank" rel="noreferrer" aria-label="Follow Boris Lilić on Instagram" className="text-gray-500 hover:text-sky-500 transition-colors">
                 <Instagram size={24} aria-hidden="true" />
               </a>
               <a href="https://www.youtube.com/@b-lilafitness" target="_blank" rel="noreferrer" aria-label="BL FITNESS on YouTube" className="text-gray-500 hover:text-red-500 transition-colors">
                 <Youtube size={24} aria-hidden="true" />
               </a>
-              <a href="https://wa.me/971588258315" target="_blank" rel="noreferrer" aria-label="Chat with BL FITNESS on WhatsApp" className="text-gray-500 hover:text-green-500 transition-colors">
+              <a href="https://wa.me/971504430273?text=Hi%20Boris!" target="_blank" rel="noreferrer" aria-label="Chat with Boris on WhatsApp" className="text-gray-500 hover:text-green-500 transition-colors">
                 <MessageCircle size={24} aria-hidden="true" />
               </a>
             </div>
@@ -61,7 +61,7 @@ export default function Footer() {
               <b>Email:</b> <a href="mailto:contact@b-lilafitness.com" className="hover:text-purple-600 transition-colors">contact@b-lilafitness.com</a>
             </p>
             <p className="text-gray-400 text-sm mb-2">
-              <b>Phone:</b> <a href="tel:+971588258315" className="hover:text-purple-600 transition-colors">+971 58 825 8315</a>
+              <b>Phone:</b> <a href="tel:+971504430273" className="hover:text-orange-500 transition-colors">+971 50 443 0273</a>
             </p>
             <p className="text-gray-400 text-sm">
               <b>Location:</b> Dubai, UAE

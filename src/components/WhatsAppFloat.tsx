@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { MessageCircle } from 'lucide-react';
 
 const WHATSAPP_URL =
-    'https://wa.me/971588258315?text=Hi%2C%20I%27m%20interested%20in%20B-Lila%20Fitness%20coaching!';
+    'https://wa.me/971504430273?text=Hi%20Boris!%20I%27m%20interested%20in%20BL%20FITNESS%20coaching.%20Can%20we%20talk%3F';
 
 export default function WhatsAppFloat() {
     return (
@@ -11,7 +11,7 @@ export default function WhatsAppFloat() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noreferrer"
-            aria-label="Chat with B-Lila Fitness on WhatsApp"
+            aria-label="Chat with Boris Lilić on WhatsApp — BL FITNESS"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 2, duration: 0.4, type: 'spring' }}

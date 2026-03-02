@@ -182,6 +182,20 @@ export default function Results() {
             </span>
           </h2>
           <p className="text-lg text-gray-600">{t.results.sub}</p>
+
+          {/* Social proof stats */}
+          <div className="flex flex-wrap justify-center gap-8 mt-8">
+            {[
+              { value: '500+', label: 'Clients Transformed' },
+              { value: '87%', label: 'Lost 8+ kg in 12 Weeks' },
+              { value: '6 yrs', label: 'Coaching Experience' },
+            ].map((stat, i) => (
+              <div key={i} className="text-center">
+                <p className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-sky-500">{stat.value}</p>
+                <p className="text-sm text-gray-500 font-semibold mt-1">{stat.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Slider + navigation */}
@@ -206,7 +220,7 @@ export default function Results() {
 
           {/* Drag hint */}
           <p className="text-center text-gray-400 text-sm mt-4 select-none">
-            ← Prevuci da vidiš transformaciju →
+            ← Drag to reveal the transformation →
           </p>
 
           {/* Prev / Next arrows */}

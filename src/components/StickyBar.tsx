@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Zap } from 'lucide-react';
 
 const WHATSAPP_URL =
-    'https://wa.me/971588258315?text=Hi%2C%20I%27m%20interested%20in%20B-Lila%20Fitness%20coaching!';
+    'https://wa.me/971504430273?text=Hi%20Boris!%20I%27m%20interested%20in%20BL%20FITNESS%20coaching.%20Can%20we%20talk%3F';
 
 export default function StickyBar() {
     const { t } = useLanguage();
@@ -66,7 +66,7 @@ export default function StickyBar() {
                     {/* CTA button — full width */}
                     <button
                         onClick={scrollToQuiz}
-                        className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-fuchsia-500 hover:from-purple-700 hover:to-fuchsia-600 text-white font-bold py-3 rounded-xl transition-all shadow-lg shadow-purple-900/40 text-sm uppercase"
+                        className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-sky-500 hover:from-orange-600 hover:to-sky-600 text-white font-bold py-3 rounded-xl transition-all shadow-lg shadow-orange-900/40 text-sm uppercase"
                     >
                         <Zap size={16} aria-hidden="true" />
                         {t.hero.btn}

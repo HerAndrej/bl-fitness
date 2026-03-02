@@ -56,7 +56,7 @@ export default function Contact() {
         >
           {/* T-009: WhatsApp CTA above the form */}
           <a
-            href="https://wa.me/971588258315?text=Hi%2C%20I%27m%20interested%20in%20BL%20FITNESS%20coaching!"
+            href="https://wa.me/971504430273?text=Hi%20Boris!%20I%27m%20interested%20in%20BL%20FITNESS%20coaching.%20Can%20we%20talk%3F"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-2xl transition-colors shadow-lg mb-6 w-full"
@@ -95,6 +95,7 @@ export default function Contact() {
                 <button type="submit" disabled={status === 'loading'} className="bg-gradient-to-r from-orange-500 to-sky-500 hover:from-orange-600 hover:to-sky-600 text-white font-bold py-3 px-10 rounded-full text-lg transition-all transform hover:scale-105 shadow-xl uppercase disabled:opacity-70 disabled:hover:scale-100">
                   {status === 'loading' ? 'SENDING...' : t.contact.formBtn}
                 </button>
+                <p className="text-xs text-gray-400 mt-2">Free 30-min strategy call · No commitment required</p>
               </div>
               {/* T-016: role="alert" for screen readers */}
               {message && (
