@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .section-heading {
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  .section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #f97316, #0ea5e9);
+    border-radius: 2px;
+  }
+  
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
