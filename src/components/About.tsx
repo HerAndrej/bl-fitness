@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
-import coachPhoto from '../images/jaucimljude.png';
+import coachPhoto from '../images/jaucimljude.webp';
 
 export default function About() {
   const { t } = useLanguage();

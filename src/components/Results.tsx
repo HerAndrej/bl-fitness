@@ -3,12 +3,12 @@ import { useLanguage } from '../LanguageContext';
 import { motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-import be1 from '../images/be1.png';
-import af1 from '../images/af1.png';
-import be2 from '../images/be2.png';
-import af2 from '../images/af2.png';
-import be3 from '../images/be3.png';
-import af3 from '../images/af3.png';
+import be1 from '../images/be1.webp';
+import af1 from '../images/af1.webp';
+import be2 from '../images/be2.webp';
+import af2 from '../images/af2.webp';
+import be3 from '../images/be3.webp';
+import af3 from '../images/af3.webp';
 
 const transformations = [
   { before: be1, after: af1 },
